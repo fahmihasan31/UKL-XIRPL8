@@ -19,8 +19,8 @@ const coffee = require(`./routes/coffee.route`);
 app.use(`/coffee`, coffee);
 
 //orderList
-const orderList = require(`./routes/orderList.route`);
-app.use(`/order`, orderList);
+const order = require(`./routes/order.route`);
+app.use(`/order`, order);
 
 
 app.listen(port, () => {
